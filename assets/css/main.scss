@@ -88,6 +88,37 @@ body {
                     }
                 }
             }
+            .caja2{
+                width: 100%;
+                .programa{
+                    max-width: 1200px;
+                    margin: auto;
+                    display: flex;
+                    padding-top: 3em;
+                    .cajahija{
+                        /*width: 100%;*/
+                        margin: 0.5em;
+                        width: 20%;
+                        border: 1px solid #e3e6f0;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        display: flex;
+                        .text{
+                            width: 60%;
+                            font-size: 1em;
+                            padding: 1em 0.5em;
+                            text-align: center;
+                        }
+                        .img{
+                            width: 40%;
+                            background-image: url("../img/bg-2.jpg");
+                            background-size: cover;
+                            background-position: center;
+                            border-radius: 0 3px 0 0;
+                        }
+                    }
+                }
+            }
         }
     }
 }

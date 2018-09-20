@@ -114,4 +114,44 @@ body .principal .cajapadre .caja1 .contenedor .btncont .btn {
   border-radius: 3px;
   cursor: pointer;
 }
+
+body .principal .cajapadre .caja2 {
+  width: 100%;
+}
+
+body .principal .cajapadre .caja2 .programa {
+  max-width: 1200px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3em;
+}
+
+body .principal .cajapadre .caja2 .programa .cajahija {
+  /*width: 100%;*/
+  margin: 0.5em;
+  width: 20%;
+  border: 1px solid #e3e6f0;
+  border-radius: 3px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .principal .cajapadre .caja2 .programa .cajahija .text {
+  width: 60%;
+  font-size: 1em;
+  padding: 1em 0.5em;
+  text-align: center;
+}
+
+body .principal .cajapadre .caja2 .programa .cajahija .img {
+  width: 40%;
+  background-image: url("../img/bg-2.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 3px 0 0;
+}
 /*# sourceMappingURL=main.css.map */
