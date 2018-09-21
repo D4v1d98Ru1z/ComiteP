@@ -5,42 +5,51 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+
     .nav-bar {
         width: 100%;
         background-color: #fff;
         display: flex;
         border-bottom: 1px solid #eeee;
+
         .izquierda {
             width: 50%;
-            .contenedor{
+
+            .contenedor {
                 width: 100%;
             }
         }
 
         .derecha {
             width: 50%;
+
             ul {
                 width: 100%;
                 display: flex;
                 justify-content: flex-end;
-                li{
+
+                li {
                     list-style-type: none;
                     padding: 1.3em 1em 1.3em 1em;
-                    .links{
+
+                    .links {
                         text-decoration: none;
                         color: #5B5858;
-                        &:hover{
+
+                        &:hover {
                             color: #FF4C5B;
                         }
                     }
-                    .btn{
+
+                    .btn {
                         text-decoration: none;
                         background-color: #FF4C5B;
                         padding: 1em 2em;
                         color: white;
                         border-radius: 2px;
                         font-size: 0.8em;
-                        &:hover{
+
+                        &:hover {
                             background-color: rgb(255, 58, 74);
                         }
                     }
@@ -48,34 +57,43 @@ body {
             }
         }
     }
-    .principal{
+
+    .principal {
         width: 100%;
         height: 90vh;
-        .cajapadre{
+        background-image: linear-gradient(60deg, rgba(255, 255, 255, 0.99) 30%, transparent 75%), url(../img/bg-2.jpg);
+        background-size: cover, cover, cover, cover;
+        background-position: center, center, center, center;
+
+        .cajapadre {
             width: 100%;
             height: 100%;
-            background-image: linear-gradient(60deg, rgba(255, 255, 255, 0.99) 30%, transparent 75%), url(../img/bg-2.jpg);
-            background-size: cover, cover, cover, cover;
-            background-position: center, center, center, center;
-            .caja1{
+
+
+            .caja1 {
                 max-width: 1500px;
                 margin: auto;
                 //margin: 20em;
-                padding-top: 20em;
-                .contenedor{
-                    width: 40%;
-                    .titulo{
+                padding-top: 10em;
+
+                .contenedor {
+                    width: 50%;
+
+                    .titulo {
                         font-size: 3em;
                         font-weight: 400;
                         margin-bottom: 0.5em;
                     }
-                    .texto{
+
+                    .texto {
                         color: #889098;
-                        font-size: 1.3em;                        
+                        font-size: 1.3em;
                     }
-                    .btncont{
+
+                    .btncont {
                         width: 100%;
-                        .btn{
+
+                        .btn {
                             margin-top: 2.5em;
                             border: none;
                             padding: 1.25em 2.89em;
@@ -88,14 +106,17 @@ body {
                     }
                 }
             }
-            .caja2{
+
+            .caja2 {
                 width: 100%;
-                .programa{
+
+                .programa {
                     max-width: 1200px;
                     margin: auto;
                     display: flex;
-                    padding-top: 3em;
-                    .cajahija{
+                    padding-top: 10em;
+
+                    .cajahija {
                         /*width: 100%;*/
                         margin: 0.5em;
                         width: 20%;
@@ -103,13 +124,15 @@ body {
                         border-radius: 3px;
                         background-color: #fff;
                         display: flex;
-                        .text{
+
+                        .text {
                             width: 60%;
                             font-size: 1em;
                             padding: 1em 0.5em;
                             text-align: center;
                         }
-                        .img{
+
+                        .img {
                             width: 40%;
                             background-image: url("../img/bg-2.jpg");
                             background-size: cover;
@@ -120,5 +143,50 @@ body {
                 }
             }
         }
+    }
+}
+
+
+
+@media screen and (max-width: 1540px) {
+    .principal {
+        .cajapadre {
+            padding: 2em;
+
+            .caja1 {
+                padding-top: 5em !important;
+            }
+
+            .caja2 {
+                .programa {
+                    padding-top: 3em !important;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and(max-width: 1255px) {
+    .principal {
+        .cajapadre {
+            .caja1 {
+                .contenedor {
+                    .titulo {
+                        font-size: 2.5em !important;
+                    }
+
+                    .texto {
+                        font-size: 1.12em !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1057px) {
+    .principal {
+        .cajapadre {}
     }
 }

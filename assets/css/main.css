@@ -69,24 +69,24 @@ body .nav-bar .derecha ul li .btn:hover {
 body .principal {
   width: 100%;
   height: 90vh;
-}
-
-body .principal .cajapadre {
-  width: 100%;
-  height: 100%;
   background-image: linear-gradient(60deg, rgba(255, 255, 255, 0.99) 30%, transparent 75%), url(../img/bg-2.jpg);
   background-size: cover, cover, cover, cover;
   background-position: center, center, center, center;
 }
 
+body .principal .cajapadre {
+  width: 100%;
+  height: 100%;
+}
+
 body .principal .cajapadre .caja1 {
   max-width: 1500px;
   margin: auto;
-  padding-top: 20em;
+  padding-top: 10em;
 }
 
 body .principal .cajapadre .caja1 .contenedor {
-  width: 40%;
+  width: 50%;
 }
 
 body .principal .cajapadre .caja1 .contenedor .titulo {
@@ -125,7 +125,7 @@ body .principal .cajapadre .caja2 .programa {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 3em;
+  padding-top: 10em;
 }
 
 body .principal .cajapadre .caja2 .programa .cajahija {
@@ -153,5 +153,26 @@ body .principal .cajapadre .caja2 .programa .cajahija .img {
   background-size: cover;
   background-position: center;
   border-radius: 0 3px 0 0;
+}
+
+@media screen and (max-width: 1540px) {
+  .principal .cajapadre {
+    padding: 2em;
+  }
+  .principal .cajapadre .caja1 {
+    padding-top: 5em !important;
+  }
+  .principal .cajapadre .caja2 .programa {
+    padding-top: 3em !important;
+  }
+}
+
+@media screen and (max-width: 1255px) {
+  .principal .cajapadre .caja1 .contenedor .titulo {
+    font-size: 2.5em !important;
+  }
+  .principal .cajapadre .caja1 .contenedor .texto {
+    font-size: 1.12em !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */
