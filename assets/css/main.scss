@@ -85,7 +85,7 @@ body {
                     }
 
                     .texto {
-                        color: #889098;
+                        color: #565c61;
                         font-size: 1.3em;
                     }
 
@@ -220,10 +220,19 @@ body {
 
 @media screen and (max-width: 858px){
     .principal {
+        background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.99) 30%, transparent 75%), url(../img/bg-op.jpg) !important;
+        background-size: cover, cover, cover, cover;
+        background-position: center, center, center, center;;
         .cajapadre {
             .caja1 {
                 .contenedor{
                     width: 100% !important;
+                    .titulo{
+                        color: #fff
+                    }
+                    .texto{
+                        color: rgb(228, 228, 228) !important;
+                    }
                 }
             }
 
