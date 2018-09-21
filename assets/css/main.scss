@@ -60,7 +60,6 @@ body {
 
     .principal {
         width: 100%;
-        height: 90vh;
         background-image: linear-gradient(60deg, rgba(255, 255, 255, 0.99) 30%, transparent 75%), url(../img/bg-2.jpg);
         background-size: cover, cover, cover, cover;
         background-position: center, center, center, center;
@@ -115,6 +114,7 @@ body {
                     margin: auto;
                     display: flex;
                     padding-top: 10em;
+                    padding-bottom: 10em;
 
                     .cajahija {
                         margin: 0.5em;
@@ -159,6 +159,7 @@ body {
             .caja2 {
                 .programa {
                     padding-top: 3em !important;
+                    padding-bottom: 3em !important;
                 }
             }
         }
@@ -190,7 +191,6 @@ body {
             .caja1 {
                 .contenedor {
                     width: 100%;
-                    margin: auto;
                 }
 
                 /*.contenedor{
@@ -199,16 +199,16 @@ body {
             }
 
             .caja2 {
-                width: 50% !important;
-                margin: auto !important;
+                width: 100% !important;
+                
 
                 .programa {
-                    display: block !important;
 
                     .cajahija {
                         width: 55% !important;
                         margin: auto !important;
                         margin-top: 0.5em !important;
+                        margin-left: 0.5em !important;
                     }
 
 
