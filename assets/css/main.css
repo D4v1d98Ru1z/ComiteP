@@ -50,12 +50,12 @@ body .nav-bar .derecha ul li .links {
 }
 
 body .nav-bar .derecha ul li .links:hover {
-  color: #FF4C5B;
+  color: #B42A2A;
 }
 
 body .nav-bar .derecha ul li .btn {
   text-decoration: none;
-  background-color: #FF4C5B;
+  background-color: #B42A2A;
   padding: 1em 2em;
   color: white;
   border-radius: 2px;
@@ -63,7 +63,7 @@ body .nav-bar .derecha ul li .btn {
 }
 
 body .nav-bar .derecha ul li .btn:hover {
-  background-color: #ff3a4a;
+  background-color: #782020;
 }
 
 body .principal {
@@ -110,7 +110,7 @@ body .principal .cajapadre .caja1 .contenedor .btncont .btn {
   padding: 1.25em 2.89em;
   font-size: 0.9em;
   color: white;
-  background-color: #FF4C5B;
+  background-color: #B42A2A;
   border-radius: 3px;
   cursor: pointer;
 }
@@ -129,7 +129,6 @@ body .principal .cajapadre .caja2 .programa {
 }
 
 body .principal .cajapadre .caja2 .programa .cajahija {
-  /*width: 100%;*/
   margin: 0.5em;
   width: 20%;
   border: 1px solid #e3e6f0;
@@ -173,6 +172,47 @@ body .principal .cajapadre .caja2 .programa .cajahija .img {
   }
   .principal .cajapadre .caja1 .contenedor .texto {
     font-size: 1.12em !important;
+  }
+}
+
+@media screen and (max-width: 1057px) {
+  .principal .cajapadre .caja1 {
+    /*.contenedor{
+                    width: 100% !important;
+                }*/
+  }
+  .principal .cajapadre .caja1 .contenedor {
+    width: 100%;
+    margin: auto;
+  }
+  .principal .cajapadre .caja2 {
+    width: 50% !important;
+    margin: auto !important;
+  }
+  .principal .cajapadre .caja2 .programa {
+    display: block !important;
+  }
+  .principal .cajapadre .caja2 .programa .cajahija {
+    width: 55% !important;
+    margin: auto !important;
+    margin-top: 0.5em !important;
+  }
+}
+
+@media screen and (max-width: 858px) {
+  .principal .cajapadre .caja1 .contenedor {
+    width: 100% !important;
+  }
+  .principal .cajapadre .caja2 {
+    width: 100% !important;
+    margin: auto !important;
+  }
+  .principal .cajapadre .caja2 .programa {
+    display: block !important;
+  }
+  .principal .cajapadre .caja2 .programa .cajahija {
+    width: 100% !important;
+    margin-top: 0.5em !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
