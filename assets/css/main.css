@@ -29,7 +29,7 @@ body .nav-bar .derecha {
   width: 50%;
 }
 
-body .nav-bar .derecha ul {
+body .nav-bar .derecha .ul-lista {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,21 +39,21 @@ body .nav-bar .derecha ul {
           justify-content: flex-end;
 }
 
-body .nav-bar .derecha ul li {
+body .nav-bar .derecha .ul-lista li {
   list-style-type: none;
   padding: 1.3em 1em 1.3em 1em;
 }
 
-body .nav-bar .derecha ul li .links {
+body .nav-bar .derecha .ul-lista li .links {
   text-decoration: none;
   color: #5B5858;
 }
 
-body .nav-bar .derecha ul li .links:hover {
+body .nav-bar .derecha .ul-lista li .links:hover {
   color: #B42A2A;
 }
 
-body .nav-bar .derecha ul li .btn {
+body .nav-bar .derecha .ul-lista li .butn {
   text-decoration: none;
   background-color: #B42A2A;
   padding: 1em 2em;
@@ -62,7 +62,7 @@ body .nav-bar .derecha ul li .btn {
   font-size: 0.8em;
 }
 
-body .nav-bar .derecha ul li .btn:hover {
+body .nav-bar .derecha .ul-lista li .butn:hover {
   background-color: #782020;
 }
 
@@ -103,7 +103,7 @@ body .principal .cajapadre .caja1 .contenedor .btncont {
   width: 100%;
 }
 
-body .principal .cajapadre .caja1 .contenedor .btncont .btn {
+body .principal .cajapadre .caja1 .contenedor .btncont .butn {
   margin-top: 2.5em;
   border: none;
   padding: 1.25em 2.89em;
@@ -139,7 +139,7 @@ body .principal .cajapadre .caja2 .programa .cajahija {
   display: flex;
 }
 
-body .principal .cajapadre .caja2 .programa .cajahija .text {
+body .principal .cajapadre .caja2 .programa .cajahija .texto {
   width: 60%;
   font-size: 1em;
   padding: 1em 0.5em;

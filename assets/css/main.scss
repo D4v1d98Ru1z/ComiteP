@@ -23,7 +23,7 @@ body {
         .derecha {
             width: 50%;
 
-            ul {
+            .ul-lista {
                 width: 100%;
                 display: flex;
                 justify-content: flex-end;
@@ -41,7 +41,7 @@ body {
                         }
                     }
 
-                    .btn {
+                    .butn {
                         text-decoration: none;
                         background-color: #B42A2A;
                         padding: 1em 2em;
@@ -92,7 +92,7 @@ body {
                     .btncont {
                         width: 100%;
 
-                        .btn {
+                        .butn {
                             margin-top: 2.5em;
                             border: none;
                             padding: 1.25em 2.89em;
@@ -124,7 +124,7 @@ body {
                         background-color: #fff;
                         display: flex;
 
-                        .text {
+                        .texto {
                             width: 60%;
                             font-size: 1em;
                             padding: 1em 0.5em;
