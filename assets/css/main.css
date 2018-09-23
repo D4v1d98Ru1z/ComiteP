@@ -154,6 +154,57 @@ body .principal .cajapadre .caja2 .programa .cajahija .img {
   border-radius: 0 3px 0 0;
 }
 
+body .recordar {
+  width: 100%;
+}
+
+body .recordar .cajapadre {
+  max-width: 1140px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 7em 5em;
+}
+
+body .recordar .cajapadre .izquierda {
+  width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 2em 1em;
+}
+
+body .recordar .cajapadre .izquierda .titulo {
+  font-size: 2.5em;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+}
+
+body .recordar .cajapadre .izquierda .texto {
+  color: #646f79;
+  font-size: 1.1em;
+  line-height: 1.7;
+}
+
+body .recordar .cajapadre .derecha {
+  width: 50%;
+  /*img {
+                    margin: auto;
+                    width: 60em;
+                    height: 30em;
+                }*/
+}
+
+body .recordar .cajapadre .derecha .img {
+  width: 30em;
+  height: 30em;
+  background-image: url("../img/desk.png");
+  background-position: center;
+  background-size: cover;
+}
+
 @media screen and (max-width: 1540px) {
   .principal .cajapadre {
     padding: 2em;
