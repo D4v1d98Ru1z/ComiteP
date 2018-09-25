@@ -259,13 +259,15 @@ body .recordar .cajapadre .derecha .img {
     display: block !important;
     padding: 5em 2em !important;
   }
-  .recordar .cajapadre .izquierda, .recordar .cajapadre .derecha {
+  .recordar .cajapadre .izquierda,
+  .recordar .cajapadre .derecha {
     width: 100% !important;
   }
 }
 
 @media screen and (max-width: 858px) {
-  .nav-bar .derecha .ul-lista li .links, .nav-bar .derecha .ul-lista li .butn {
+  .nav-bar .derecha .ul-lista li .links,
+  .nav-bar .derecha .ul-lista li .butn {
     display: none;
   }
   .nav-bar .derecha .ul-lista li .bars {
@@ -297,6 +299,13 @@ body .recordar .cajapadre .derecha .img {
     width: 100% !important;
     margin-top: 0.5em !important;
   }
+  .recordar .cajapadre .derecha {
+    width: 100% !important;
+  }
+  .recordar .cajapadre .derecha .img {
+    width: 100% !important;
+    height: 30em !important;
+  }
 }
 
 @media screen and (max-width: 511px) {
@@ -311,8 +320,24 @@ body .recordar .cajapadre .derecha .img {
     padding: 3em 1em !important;
   }
   .recordar .cajapadre .derecha .img {
+    width: 23em !important;
+    height: 30em !important;
+  }
+}
+
+@media screen and (max-width: 383px) {
+  .recordar .cajapadre {
+    padding: 3em 1em !important;
+  }
+  .recordar .cajapadre .derecha .img {
     width: 20em !important;
     height: 30em !important;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .recordar .cajapadre .derecha .img {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
