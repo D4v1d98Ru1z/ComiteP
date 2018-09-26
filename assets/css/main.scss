@@ -40,7 +40,7 @@ body {
                             color: #B42A2A;
                         }
                     }
-                   
+
 
                     .butn {
                         text-decoration: none;
@@ -55,7 +55,8 @@ body {
                         }
                     }
                 }
-                .resp-but{
+
+                .resp-but {
                     display: none;
                 }
             }
@@ -195,6 +196,38 @@ body {
             }
         }
     }
+
+    .estadisticas {
+        width: 100%;
+        height: 50vh;
+        background-color: #F5F8FB;
+
+        .cajapadre {
+            max-width: 1140px;
+            display: block;
+            margin: auto;
+            text-align: center;
+
+            .titulo {
+                width: 100%;
+                padding-top: 6em;
+                h2 {
+                    font-size: 2.5em;
+                    font-weight: 400;
+                    line-height: 1.5;
+                }
+            }
+            .graficas{
+                width: 100%;
+                margin-top: 4em;
+                margin-bottom: 8em;
+                .cajahija{
+                    width: 30%;
+                    margin: auto;                   
+                }
+            }
+        }
+    }
 }
 
 
@@ -295,10 +328,11 @@ body {
     .nav-bar {
         .derecha {
             .ul-lista {
-                .resp-but{
+                .resp-but {
                     display: block !important;
                 }
-                .anclas{
+
+                .anclas {
                     display: none !important;
                 }
             }
