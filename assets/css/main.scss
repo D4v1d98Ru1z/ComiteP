@@ -40,10 +40,7 @@ body {
                             color: #B42A2A;
                         }
                     }
-
-                    .bars {
-                        display: none;
-                    }
+                   
 
                     .butn {
                         text-decoration: none;
@@ -57,6 +54,9 @@ body {
                             background-color: #782020;
                         }
                     }
+                }
+                .resp-but{
+                    display: none;
                 }
             }
         }
@@ -295,16 +295,11 @@ body {
     .nav-bar {
         .derecha {
             .ul-lista {
-                li {
-
-                    .links,
-                    .butn {
-                        display: none
-                    }
-
-                    .bars {
-                        display: block !important;
-                    }
+                .resp-but{
+                    display: block !important;
+                }
+                .anclas{
+                    display: none !important;
                 }
             }
         }
