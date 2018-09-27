@@ -1,3 +1,4 @@
+//Grafica circular
 $(document).ready(function () {
     $("#gra-circular").circliful({
         animation: 1,

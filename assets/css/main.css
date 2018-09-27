@@ -219,7 +219,6 @@ body .estadisticas .cajapadre {
   max-width: 1140px;
   display: block;
   margin: auto;
-  text-align: center;
 }
 
 body .estadisticas .cajapadre .titulo {
@@ -231,6 +230,7 @@ body .estadisticas .cajapadre .titulo h2 {
   font-size: 2.5em;
   font-weight: 400;
   line-height: 1.5;
+  text-align: center;
 }
 
 body .estadisticas .cajapadre .graficas {
@@ -297,6 +297,10 @@ body .estadisticas .cajapadre .graficas .cajahija {
   .recordar .cajapadre .izquierda,
   .recordar .cajapadre .derecha {
     width: 100% !important;
+  }
+  .estadisticas .cajapadre .graficas #gra-circular .legend-line {
+    position: initial !important;
+    padding-top: 2em !important;
   }
 }
 
