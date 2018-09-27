@@ -199,7 +199,7 @@ body {
 
     .estadisticas {
         width: 100%;
-        height: 50vh;
+        height: 80vh;
         background-color: #F5F8FB;
 
         .cajapadre {
@@ -324,7 +324,11 @@ body {
         }
     }
     .estadisticas{
+        height: 100vh !important;
         .cajapadre{
+            .titulo{
+                padding-top: 8em !important;
+            }
             .graficas{
                 #gra-circular{
                     .legend-line{
@@ -335,6 +339,7 @@ body {
             }
         }
     }
+    
 }
 
 @media screen and (max-width: 858px) {

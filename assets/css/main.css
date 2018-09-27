@@ -211,7 +211,7 @@ body .recordar .cajapadre .derecha .img {
 
 body .estadisticas {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background-color: #F5F8FB;
 }
 
@@ -297,6 +297,12 @@ body .estadisticas .cajapadre .graficas .cajahija {
   .recordar .cajapadre .izquierda,
   .recordar .cajapadre .derecha {
     width: 100% !important;
+  }
+  .estadisticas {
+    height: 100vh !important;
+  }
+  .estadisticas .cajapadre .titulo {
+    padding-top: 8em !important;
   }
   .estadisticas .cajapadre .graficas #gra-circular .legend-line {
     position: initial !important;
