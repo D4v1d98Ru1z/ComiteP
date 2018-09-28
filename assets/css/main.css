@@ -244,15 +244,8 @@ body .estadisticas .cajapadre .graficas {
   margin-bottom: 8em;
 }
 
-body .estadisticas .cajapadre .graficas .caja {
-  width: 100%;
-  height: 100%;
-  border: 1px solid #000000;
-}
-
 body .estadisticas .cajapadre .graficas .cajahija {
   width: 100%;
-  max-width: 300px;
   margin: auto;
 }
 
