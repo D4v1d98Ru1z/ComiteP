@@ -17,9 +17,7 @@ $(document).ready(function () {
         ],
         multiPercentageLegend: 1,
         replacePercentageByText: '',
-        backgroundColor: '#eee',
-        icon: 'f0d0',
-        iconPosition: 'middle',
-        iconColor: '#273B4E'
+        backgroundColor: '#eee'
+        
     });
 });

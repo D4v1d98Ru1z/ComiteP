@@ -217,12 +217,16 @@ body .estadisticas {
 
 body .estadisticas .cajapadre {
   max-width: 1140px;
-  display: block;
+  height: 100%;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 7em 5em;
 }
 
 body .estadisticas .cajapadre .titulo {
-  width: 100%;
+  width: 50%;
   padding-top: 6em;
 }
 
@@ -234,13 +238,21 @@ body .estadisticas .cajapadre .titulo h2 {
 }
 
 body .estadisticas .cajapadre .graficas {
-  width: 100%;
+  width: 50%;
   margin-top: 4em;
+  margin-right: 13em;
   margin-bottom: 8em;
 }
 
+body .estadisticas .cajapadre .graficas .caja {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000000;
+}
+
 body .estadisticas .cajapadre .graficas .cajahija {
-  width: 30%;
+  width: 100%;
+  max-width: 300px;
   margin: auto;
 }
 
@@ -287,6 +299,9 @@ body .estadisticas .cajapadre .graficas .cajahija {
   .recordar .cajapadre {
     padding: 7em 2em !important;
   }
+  .estadisticas .cajapadre .graficas #gra-circular {
+    min-width: 260px;
+  }
 }
 
 @media screen and (max-width: 958px) {
@@ -299,14 +314,16 @@ body .estadisticas .cajapadre .graficas .cajahija {
     width: 100% !important;
   }
   .estadisticas {
-    height: 100vh !important;
+    height: 100% !important;
   }
   .estadisticas .cajapadre .titulo {
     padding-top: 8em !important;
   }
   .estadisticas .cajapadre .graficas #gra-circular .legend-line {
     position: initial !important;
-    padding-top: 2em !important;
+    padding-top: 4em !important;
+    padding-right: 3em !important;
+    padding-left: 3em !important;
   }
 }
 

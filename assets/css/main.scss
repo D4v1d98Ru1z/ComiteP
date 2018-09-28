@@ -201,15 +201,17 @@ body {
         width: 100%;
         height: 80vh;
         background-color: #F5F8FB;
-
+        
         .cajapadre {
             max-width: 1140px;
-            display: block;
+            height: 100%;
             margin: auto;
+            display: flex;       
+            padding: 7em 5em;
             
 
             .titulo {
-                width: 100%;
+                width: 50%;
                 padding-top: 6em;
                 h2 {
                     font-size: 2.5em;
@@ -219,11 +221,18 @@ body {
                 }
             }
             .graficas{
-                width: 100%;
+                width: 50%;
                 margin-top: 4em;
+                margin-right: 13em;
                 margin-bottom: 8em;
+                .caja{
+                    width: 100%;
+                    height: 100%;
+                    border: 1px solid #000000;
+                }
                 .cajahija{
-                    width: 30%;
+                    width: 100%;
+                    max-width: 300px;
                     margin: auto;                   
                 }
             }
@@ -308,6 +317,15 @@ body {
             padding: 7em 2em !important;
         }
     }
+    .estadisticas{
+        .cajapadre{
+            .graficas{
+                #gra-circular{
+                    min-width: 260px;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 958px) {
@@ -324,7 +342,7 @@ body {
         }
     }
     .estadisticas{
-        height: 100vh !important;
+        height: 100% !important;
         .cajapadre{
             .titulo{
                 padding-top: 8em !important;
@@ -333,7 +351,9 @@ body {
                 #gra-circular{
                     .legend-line{
                         position: initial !important;
-                        padding-top: 2em !important;
+                        padding-top: 4em !important;
+                        padding-right: 3em !important;
+                        padding-left: 3em !important;
                     }
                 }
             }
