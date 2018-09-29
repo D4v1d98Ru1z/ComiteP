@@ -199,36 +199,79 @@ body {
 
     .estadisticas {
         width: 100%;
-        height: 80vh;
+        height: 100%;
         background-color: #F5F8FB;
-        
+
         .cajapadre {
             max-width: 1140px;
-            height: 100%;
             margin: auto;
-            display: flex;       
+            display: flex;
             padding: 7em 5em;
-            
+
 
             .titulo {
                 width: 50%;
                 padding-top: 6em;
+
                 h2 {
                     font-size: 2.5em;
                     font-weight: 400;
                     line-height: 1.5;
                     text-align: center;
                 }
+                .texto{
+                    padding: 2em;
+                    color: #646f79;
+                    font-size: 1em;
+                    line-height: 1.7;
+                }
             }
-            .graficas{
+
+            .graficas {
                 width: 50%;
                 margin-top: 4em;
-                margin-right: 13em;
-                margin-bottom: 8em;
-                .cajahija{
-                    width: 100%;
-                    margin: auto;                   
+                /*margin-right: 13em;*/
+                border-radius: 8px;
+                background-color: white;
+                -webkit-box-shadow: 0px 0px 33px 3px rgba(0, 0, 0, 0.18);
+                -moz-box-shadow: 0px 0px 33px 3px rgba(0, 0, 0, 0.18);
+                box-shadow: 0px 0px 33px 3px rgba(0, 0, 0, 0.18);
+
+                .caja {
+                    width: 50%;
+                    display: block;
+                    padding-left: 1.5em;
+
+                    .cajahija {
+                        width: 100%;
+                        display: flex;
+
+                        .contenedor {
+                            margin: 1.5em;
+
+                            .circle {
+                                -webkit-box-shadow: 4px -6px 33px -10px rgba(0, 0, 0, 0.48);
+                                -moz-box-shadow: 4px -6px 33px -10px rgba(0, 0, 0, 0.48);
+                                box-shadow: 4px -6px 33px -10px rgba(0, 0, 0, 0.48);
+                                border-radius: 50%;
+
+                                span {
+                                    font-size: 0.75em !important;
+                                    font-weight: 800;
+                                }
+                            }
+
+                            .texto {
+                                color: #B8BECA;
+                                font-size: 0.85em;
+                                margin-top: 1em;
+                                text-align: center;
+                            }
+                        }
+                    }
                 }
+
+
             }
         }
     }
@@ -311,10 +354,11 @@ body {
             padding: 7em 2em !important;
         }
     }
-    .estadisticas{
-        .cajapadre{
-            .graficas{
-                #gra-circular{
+
+    .estadisticas {
+        .cajapadre {
+            .graficas {
+                #gra-circular {
                     min-width: 260px;
                 }
             }
@@ -335,15 +379,18 @@ body {
             }
         }
     }
-    .estadisticas{
+
+    .estadisticas {
         height: 100% !important;
-        .cajapadre{
-            .titulo{
+
+        .cajapadre {
+            .titulo {
                 padding-top: 8em !important;
             }
-            .graficas{
-                #gra-circular{
-                    .legend-line{
+
+            .graficas {
+                #gra-circular {
+                    .legend-line {
                         position: initial !important;
                         padding-top: 4em !important;
                         padding-right: 3em !important;
@@ -353,7 +400,7 @@ body {
             }
         }
     }
-    
+
 }
 
 @media screen and (max-width: 858px) {

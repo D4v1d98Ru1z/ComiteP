@@ -211,13 +211,12 @@ body .recordar .cajapadre .derecha .img {
 
 body .estadisticas {
   width: 100%;
-  height: 80vh;
+  height: 100%;
   background-color: #F5F8FB;
 }
 
 body .estadisticas .cajapadre {
   max-width: 1140px;
-  height: 100%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -237,16 +236,56 @@ body .estadisticas .cajapadre .titulo h2 {
   text-align: center;
 }
 
+body .estadisticas .cajapadre .titulo .texto {
+  padding: 2em;
+  color: #646f79;
+  font-size: 1em;
+  line-height: 1.7;
+}
+
 body .estadisticas .cajapadre .graficas {
   width: 50%;
   margin-top: 4em;
-  margin-right: 13em;
-  margin-bottom: 8em;
+  /*margin-right: 13em;*/
+  border-radius: 8px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 33px 3px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 0px 33px 3px rgba(0, 0, 0, 0.18);
 }
 
-body .estadisticas .cajapadre .graficas .cajahija {
+body .estadisticas .cajapadre .graficas .caja {
+  width: 50%;
+  display: block;
+  padding-left: 1.5em;
+}
+
+body .estadisticas .cajapadre .graficas .caja .cajahija {
   width: 100%;
-  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .estadisticas .cajapadre .graficas .caja .cajahija .contenedor {
+  margin: 1.5em;
+}
+
+body .estadisticas .cajapadre .graficas .caja .cajahija .contenedor .circle {
+  -webkit-box-shadow: 4px -6px 33px -10px rgba(0, 0, 0, 0.48);
+  box-shadow: 4px -6px 33px -10px rgba(0, 0, 0, 0.48);
+  border-radius: 50%;
+}
+
+body .estadisticas .cajapadre .graficas .caja .cajahija .contenedor .circle span {
+  font-size: 0.75em !important;
+  font-weight: 800;
+}
+
+body .estadisticas .cajapadre .graficas .caja .cajahija .contenedor .texto {
+  color: #B8BECA;
+  font-size: 0.85em;
+  margin-top: 1em;
+  text-align: center;
 }
 
 @media screen and (max-width: 1540px) {

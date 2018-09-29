@@ -51,15 +51,52 @@ var colors = [
     ],
     circles = [];
 
+// For each insight made one
+//1
 var child = document.getElementById('circles-' + 1),
     percentage = 80;
+    document.getElementById("percent").innerHTML = "Estudiantes ingresados " + percentage + "%";
 circles.push(Circles.create({
     id: child.id,
-    value: percentage,
-    radius: 60,
+    value: percentage,    
+    radius: 80,
     width: 10,
     colors: colors[1 - 1]
 }));
+//2
+var child = document.getElementById('circles-' + 2),
+    percentage = 75;
+    document.getElementById("percent1").innerHTML = "Directores ingresados " + percentage + "%";
+circles.push(Circles.create({
+    id: child.id,
+    value: percentage,    
+    radius: 80,
+    width: 10,
+    colors: colors[2 - 1]
+}));
+//3
+var child = document.getElementById('circles-' + 3),
+    percentage = 70;
+    document.getElementById("percent2").innerHTML = "Jurados ingresados " + percentage + "%";
+circles.push(Circles.create({
+    id: child.id,
+    value: percentage,    
+    radius: 80,
+    width: 10,
+    colors: colors[3 - 1]
+}));
+//4
+var child = document.getElementById('circles-' + 4),
+    percentage = 50;
+    document.getElementById("percent3").innerHTML = "Total de visitas " + percentage + "%";
+circles.push(Circles.create({
+    id: child.id,
+    value: percentage,    
+    radius: 80,
+    width: 10,
+    colors: colors[4 - 1]
+}));
+
 
 
 /*for (var i = 1; i <= 4; i++) {
@@ -75,24 +112,3 @@ circles.push(Circles.create({
     }));
 }*/
 
-document.getElementById('change-value-button').onclick = function () {
-    for (var i = 0, l = circles.length; i < l; i++)
-        circles[i].update(20, 250);
-};
-
-document.getElementById('add-width-button').onclick = function () {
-    for (var i = 0, l = circles.length; i < l; i++) {
-        circles[i].updateWidth(20);
-    }
-};
-
-document.getElementById('substract-width-button').onclick = function () {
-    for (var i = 0, l = circles.length; i < l; i++)
-        circles[i].updateWidth(10);
-};
-
-document.getElementById('colors-button').onclick = function () {
-    colors = shuffle(colors);
-    for (var i = 0, l = circles.length; i < l; i++)
-        circles[i].updateColors(colors[i]);
-};
