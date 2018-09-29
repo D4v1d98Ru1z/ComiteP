@@ -52,52 +52,102 @@ var colors = [
     circles = [];
 
 // For each insight made one
-//1
-var child = document.getElementById('circles-' + 1),
-    percentage = 80;
-    document.getElementById("percent").innerHTML = "Estudiantes ingresados " + percentage + "%";
-circles.push(Circles.create({
-    id: child.id,
-    value: percentage,    
-    radius: 80,
-    width: 10,
-    colors: colors[1 - 1]
-}));
-//2
-var child = document.getElementById('circles-' + 2),
-    percentage = 75;
-    document.getElementById("percent1").innerHTML = "Directores ingresados " + percentage + "%";
-circles.push(Circles.create({
-    id: child.id,
-    value: percentage,    
-    radius: 80,
-    width: 10,
-    colors: colors[2 - 1]
-}));
-//3
-var child = document.getElementById('circles-' + 3),
-    percentage = 70;
-    document.getElementById("percent2").innerHTML = "Jurados ingresados " + percentage + "%";
-circles.push(Circles.create({
-    id: child.id,
-    value: percentage,    
-    radius: 80,
-    width: 10,
-    colors: colors[3 - 1]
-}));
-//4
-var child = document.getElementById('circles-' + 4),
-    percentage = 50;
-    document.getElementById("percent3").innerHTML = "Total de visitas " + percentage + "%";
-circles.push(Circles.create({
-    id: child.id,
-    value: percentage,    
-    radius: 80,
-    width: 10,
-    colors: colors[4 - 1]
-}));
 
 
+$(window).resize(function () {
+    if ($(window).width() <= 404) {
+        //1
+        var child = document.getElementById('circles-' + 1),
+            percentage = 80;
+        document.getElementById("percent").innerHTML = "Estudiantes ingresados " + percentage + "%";
+        circles.push(Circles.create({
+            id: child.id,
+            value: percentage,
+            radius: 40,
+            width: 10,
+            colors: colors[1 - 1]
+        }));
+        //2
+        var child = document.getElementById('circles-' + 2),
+            percentage = 75;
+        document.getElementById("percent1").innerHTML = "Directores ingresados " + percentage + "%";
+        circles.push(Circles.create({
+            id: child.id,
+            value: percentage,
+            radius: 40,
+            width: 10,
+            colors: colors[2 - 1]
+        }));
+        //3
+        var child = document.getElementById('circles-' + 3),
+            percentage = 70;
+        document.getElementById("percent2").innerHTML = "Jurados ingresados " + percentage + "%";
+        circles.push(Circles.create({
+            id: child.id,
+            value: percentage,
+            radius: 40,
+            width: 10,
+            colors: colors[3 - 1]
+        }));
+        //4
+        var child = document.getElementById('circles-' + 4),
+            percentage = 50;
+        document.getElementById("percent3").innerHTML = "Total de visitas " + percentage + "%";
+        circles.push(Circles.create({
+            id: child.id,
+            value: percentage,
+            radius: 40,
+            width: 10,
+            colors: colors[4 - 1]
+        }));
+
+    } else {
+        //1
+        var child = document.getElementById('circles-' + 1),
+            percentage = 80;
+        document.getElementById("percent").innerHTML = "Estudiantes ingresados " + percentage + "%";
+        circles.push(Circles.create({
+            id: child.id,
+            value: percentage,
+            radius: 80,
+            width: 10,
+            colors: colors[1 - 1]
+        }));
+        //2
+        var child = document.getElementById('circles-' + 2),
+            percentage = 75;
+        document.getElementById("percent1").innerHTML = "Directores ingresados " + percentage + "%";
+        circles.push(Circles.create({
+            id: child.id,
+            value: percentage,
+            radius: 80,
+            width: 10,
+            colors: colors[2 - 1]
+        }));
+        //3
+        var child = document.getElementById('circles-' + 3),
+            percentage = 70;
+        document.getElementById("percent2").innerHTML = "Jurados ingresados " + percentage + "%";
+        circles.push(Circles.create({
+            id: child.id,
+            value: percentage,
+            radius: 80,
+            width: 10,
+            colors: colors[3 - 1]
+        }));
+        //4
+        var child = document.getElementById('circles-' + 4),
+            percentage = 50;
+        document.getElementById("percent3").innerHTML = "Total de visitas " + percentage + "%";
+        circles.push(Circles.create({
+            id: child.id,
+            value: percentage,
+            radius: 80,
+            width: 10,
+            colors: colors[4 - 1]
+        }));
+    }
+});
 
 /*for (var i = 1; i <= 4; i++) {
     var child = document.getElementById('circles-' + i),
@@ -111,4 +161,3 @@ circles.push(Circles.create({
         colors:     colors[i - 1]
     }));
 }*/
-

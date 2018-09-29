@@ -221,7 +221,11 @@ body .estadisticas .cajapadre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 7em 5em;
+  padding: 5em;
+}
+
+body .estadisticas .cajapadre .titulo-res {
+  display: none;
 }
 
 body .estadisticas .cajapadre .titulo {
@@ -268,12 +272,6 @@ body .estadisticas .cajapadre .graficas .caja .cajahija {
 
 body .estadisticas .cajapadre .graficas .caja .cajahija .contenedor {
   margin: 1.5em;
-}
-
-body .estadisticas .cajapadre .graficas .caja .cajahija .contenedor .circle {
-  -webkit-box-shadow: 4px -6px 33px -10px rgba(0, 0, 0, 0.48);
-  box-shadow: 4px -6px 33px -10px rgba(0, 0, 0, 0.48);
-  border-radius: 50%;
 }
 
 body .estadisticas .cajapadre .graficas .caja .cajahija .contenedor .circle span {
@@ -331,8 +329,8 @@ body .estadisticas .cajapadre .graficas .caja .cajahija .contenedor .texto {
   .recordar .cajapadre {
     padding: 7em 2em !important;
   }
-  .estadisticas .cajapadre .graficas #gra-circular {
-    min-width: 260px;
+  .estadisticas .cajapadre .graficas .caja {
+    padding-left: 0 !important;
   }
 }
 
@@ -344,6 +342,17 @@ body .estadisticas .cajapadre .graficas .caja .cajahija .contenedor .texto {
   .recordar .cajapadre .izquierda,
   .recordar .cajapadre .derecha {
     width: 100% !important;
+  }
+  .recordar .cajapadre .izquierda .img,
+  .recordar .cajapadre .derecha .img {
+    width: 100% !important;
+  }
+  .estadisticas .cajapadre .graficas .caja .cajahija .contenedor {
+    margin: 0.5em !important;
+  }
+  .estadisticas .cajapadre .titulo h2 {
+    padding-left: 0.5em;
+    font-size: 2em !important;
   }
   .estadisticas {
     height: 100% !important;
@@ -398,6 +407,41 @@ body .estadisticas .cajapadre .graficas .caja .cajahija .contenedor .texto {
   .recordar .cajapadre .derecha .img {
     width: 100% !important;
     height: 30em !important;
+  }
+  .estadisticas .cajapadre {
+    display: block !important;
+    padding: 5em 2em !important;
+  }
+  .estadisticas .cajapadre .titulo {
+    display: none;
+  }
+  .estadisticas .cajapadre .titulo-res {
+    display: block !important;
+  }
+  .estadisticas .cajapadre .titulo-res h2 {
+    font-size: 2.5em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .estadisticas .cajapadre .titulo-res .texto {
+    padding-top: 1em;
+    color: #646f79;
+    font-size: 1em;
+    line-height: 1.7;
+  }
+  .estadisticas .cajapadre .graficas {
+    width: 100% !important;
+  }
+  .estadisticas .cajapadre .graficas .caja {
+    width: 100% !important;
+    margin: auto !important;
+    text-align: center;
+  }
+  .estadisticas .cajapadre .graficas .caja .cajahija {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
   }
 }
 
