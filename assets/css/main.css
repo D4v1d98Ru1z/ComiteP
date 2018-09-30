@@ -286,6 +286,28 @@ body .estadisticas .cajapadre .graficas .caja .cajahija .contenedor .texto {
   text-align: center;
 }
 
+body .contacto {
+  width: 100%;
+  padding: 2em 0 !important;
+}
+
+body .contacto .cajapadre {
+  max-width: 1140px;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.2);
+}
+
+body .contacto .cajapadre .aviso div .pa {
+  border: 1px solid #B7EECA !important;
+  background-color: #CCF3D9;
+}
+
+body .contacto .cajapadre .aviso div .pa .alert {
+  padding: 1em 0.5em;
+  color: #067476;
+}
+
 @media screen and (max-width: 1540px) {
   .principal .cajapadre {
     padding: 2em;

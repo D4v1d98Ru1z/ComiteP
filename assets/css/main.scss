@@ -206,8 +206,9 @@ body {
             max-width: 1140px;
             margin: auto;
             display: flex;
-            padding:5em;
-            .titulo-res{
+            padding: 5em;
+
+            .titulo-res {
                 display: none;
             }
 
@@ -222,7 +223,8 @@ body {
                     line-height: 1.5;
                     text-align: center;
                 }
-                .texto{
+
+                .texto {
                     padding: 2em;
                     color: #646f79;
                     font-size: 1em;
@@ -274,7 +276,33 @@ body {
             }
         }
     }
+
+    .contacto {
+        width: 100%;
+        padding: 2em 0 !important;
+
+        .cajapadre {
+            max-width: 1140px;
+            margin: auto;
+            -webkit-box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.2);
+            -moz-box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.2);
+            .aviso{
+                div{
+                    .pa{
+                        border: 1px solid #B7EECA !important;
+                        background-color: #CCF3D9;
+                        .alert{
+                            padding: 1em 0.5em;
+                            color: #067476;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
 
 
 
@@ -357,7 +385,7 @@ body {
     .estadisticas {
         .cajapadre {
             .graficas {
-                .caja{
+                .caja {
                     padding-left: 0 !important;
                 }
             }
@@ -374,26 +402,29 @@ body {
             .izquierda,
             .derecha {
                 width: 100% !important;
-                .img{
+
+                .img {
                     width: 100% !important;
                 }
 
             }
         }
     }
-    .estadisticas{
-        .cajapadre{
-            .graficas{
-                .caja{
-                    .cajahija{
-                        .contenedor{
+
+    .estadisticas {
+        .cajapadre {
+            .graficas {
+                .caja {
+                    .cajahija {
+                        .contenedor {
                             margin: 0.5em !important;
                         }
                     }
                 }
             }
-            .titulo{
-                h2{
+
+            .titulo {
+                h2 {
                     padding-left: 0.5em;
                     font-size: 2em !important;
                 }
@@ -491,36 +522,44 @@ body {
             }
         }
     }
-    .estadisticas{
-        .cajapadre{
+
+    .estadisticas {
+        .cajapadre {
             display: block !important;
             padding: 5em 2em !important;
-            .titulo{
+
+            .titulo {
                 display: none;
 
             }
-            .titulo-res{
+
+            .titulo-res {
                 display: block !important;
+
                 h2 {
                     font-size: 2.5em;
                     font-weight: 400;
                     line-height: 1.5;
                     text-align: center;
                 }
-                .texto{
+
+                .texto {
                     padding-top: 1em;
                     color: #646f79;
                     font-size: 1em;
                     line-height: 1.7;
                 }
             }
-            .graficas{
+
+            .graficas {
                 width: 100% !important;
-                .caja{
+
+                .caja {
                     width: 100% !important;
                     margin: auto !important;
                     text-align: center;
-                    .cajahija{
+
+                    .cajahija {
                         justify-content: center !important;
                     }
                 }
