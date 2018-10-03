@@ -308,6 +308,107 @@ body .contacto .cajapadre .aviso div .pa .alert {
   color: #067476;
 }
 
+body .footer {
+  width: 100%;
+  background-color: #1C1E2B;
+}
+
+body .footer .foot {
+  max-width: 1140px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4em 2em;
+  color: #fff;
+}
+
+body .footer .foot .caja1 {
+  display: block;
+  width: 32%;
+}
+
+body .footer .foot .caja1 .icono {
+  width: 50%;
+  margin-bottom: 3em;
+}
+
+body .footer .foot .caja1 .icono .img {
+  width: 5em;
+  height: 5em;
+  background-image: url("../img/icono.png");
+  background-position: center;
+  background-size: cover;
+}
+
+body .footer .foot .caja1 .texto {
+  font-size: 0.8em;
+  padding-right: 1em;
+}
+
+body .footer .foot .caja2 {
+  width: 16%;
+}
+
+body .footer .foot .caja2 .titulo {
+  font-size: 1em;
+  margin-bottom: 1.3em;
+}
+
+body .footer .foot .caja2 ul {
+  padding: 0;
+}
+
+body .footer .foot .caja2 ul .download {
+  padding: 0.35em;
+  list-style-type: none;
+}
+
+body .footer .foot .caja2 ul .download a {
+  font-size: 0.95em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+body .footer .foot .caja2 ul .download a:hover {
+  color: #fff;
+}
+
+body .footer .foot .caja3 {
+  width: 24%;
+}
+
+body .footer .foot .caja3 .titulo {
+  font-size: 1em;
+  margin-bottom: 1.3em;
+}
+
+body .footer .foot .caja3 .info {
+  padding-right: 1em;
+  font-size: 0.95em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+body .footer .foot .caja4 {
+  width: 24%;
+}
+
+body .footer .foot .caja4 .titulo {
+  font-size: 1em;
+  margin-bottom: 1.3em;
+}
+
+body .footer .foot .caja4 ul {
+  padding: 0;
+}
+
+body .footer .foot .caja4 ul .datos {
+  padding: 0.35em;
+  list-style-type: none;
+  font-size: 0.95em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
 @media screen and (max-width: 1540px) {
   .principal .cajapadre {
     padding: 2em;
@@ -465,6 +566,16 @@ body .contacto .cajapadre .aviso div .pa .alert {
         -ms-flex-pack: center !important;
             justify-content: center !important;
   }
+  .footer .foot {
+    display: block !important;
+    width: 100%;
+  }
+  .footer .foot .caja1, .footer .foot .caja2, .footer .foot .caja3, .footer .foot .caja4 {
+    width: 100% !important;
+  }
+  .footer .foot .caja1 .titulo, .footer .foot .caja2 .titulo, .footer .foot .caja3 .titulo, .footer .foot .caja4 .titulo {
+    margin-top: 2em;
+  }
 }
 
 @media screen and (max-width: 511px) {
@@ -491,6 +602,9 @@ body .contacto .cajapadre .aviso div .pa .alert {
   .recordar .cajapadre .derecha .img {
     width: 20em !important;
     height: 30em !important;
+  }
+  .contacto .cajapadre {
+    width: 100% !important;
   }
 }
 
