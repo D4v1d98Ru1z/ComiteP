@@ -118,6 +118,13 @@ body .principal .cajapadre .caja1 .contenedor .btncont .butn {
   cursor: pointer;
 }
 
+body .principal .cajapadre .caja1 .contenedor .btncont .butn .buton {
+  text-decoration: none;
+  background-color: #B42A2A;
+  color: white;
+  font-size: 0.9em;
+}
+
 body .principal .cajapadre .caja2 {
   width: 100%;
 }
@@ -570,10 +577,16 @@ body .footer .foot .caja4 ul .datos {
     display: block !important;
     width: 100%;
   }
-  .footer .foot .caja1, .footer .foot .caja2, .footer .foot .caja3, .footer .foot .caja4 {
+  .footer .foot .caja1,
+  .footer .foot .caja2,
+  .footer .foot .caja3,
+  .footer .foot .caja4 {
     width: 100% !important;
   }
-  .footer .foot .caja1 .titulo, .footer .foot .caja2 .titulo, .footer .foot .caja3 .titulo, .footer .foot .caja4 .titulo {
+  .footer .foot .caja1 .titulo,
+  .footer .foot .caja2 .titulo,
+  .footer .foot .caja3 .titulo,
+  .footer .foot .caja4 .titulo {
     margin-top: 2em;
   }
 }
