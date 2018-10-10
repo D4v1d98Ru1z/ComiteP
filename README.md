@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-# ComiteP
-=======
-# Postgrado
-
->>>>>>> masterRP
